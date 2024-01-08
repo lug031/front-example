@@ -1,0 +1,9 @@
+.pagination{
+    @apply flex justify-center container
+}
+.pagination .page-item{
+    @apply relative text-sm font-medium leading-none cursor-pointer text-gray-600 dark:text-gray-200  hover:text-indigo-700 dark:hover:text-indigo-400 border-t border-transparent hover:border-indigo-400 pt-3 px-4
+}
+.page-item.active{
+    @apply text-sm font-medium leading-none cursor-pointer text-indigo-700 dark:text-indigo-400 border-t border-indigo-400 pt-3 px-4
+}

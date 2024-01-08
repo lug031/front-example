@@ -1,0 +1,19 @@
+@use "../settings/sizes";
+
+@mixin type-of-device($type) {
+  &--mobile {
+    display: $type !important;
+
+    @media (min-width: sizes.$tablet) {
+      display: none !important;
+    }
+  }
+
+  &--desktop {
+    display: none !important;
+
+    @media (min-width: sizes.$tablet) {
+      display: $type !important;
+    }
+  }
+}

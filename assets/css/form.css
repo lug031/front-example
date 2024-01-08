@@ -1,0 +1,35 @@
+.wolf {
+    @apply text-xs pt-7 !important;
+}
+.wolf-label{
+    @apply pl-3 !important;
+}
+.wolf::placeholder {
+    @apply text-xs;
+}
+.is-input{
+    /*@apply block w-full p-3 pl-10 text-sm outline-0 bg-purple-200 text-gray-800 rounded-md focus:border-blue-500 focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400*/
+    @apply pl-3 rounded-md dark:border bg-white border-2 bg-opacity-10 block w-full appearance-none pt-5 pb-2 text-gray-600 focus:border-primary-500 focus:border-2 focus:outline-none focus:ring-0 dark:bg-opacity-10 dark:text-gray-300 dark:shadow-none transition duration-300
+}
+.is-input-disable{
+    /*@apply block w-full p-3 pl-10 text-sm outline-0 bg-purple-200 text-gray-800 rounded-md focus:border-blue-500 focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400*/
+    @apply bg-gray-100 opacity-50 !important
+}
+
+.is-input-label{
+    @apply absolute top-4 -z-10 origin-[0] pl-3 left-1 -translate-y-3 scale-75 transform text-gray-500 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-1  peer-focus:-translate-y-3 peer-focus:scale-75 peer-focus:text-primary-500 dark:text-white
+}
+.is-input-ico{
+    /*@apply pl-3 rounded-md  bg-white  border bg-opacity-10 block w-full appearance-none shadow-md shadow-gray-300/60 pt-5 pb-2 text-sm text-gray-600 focus:shadow-blue-200/60 focus:outline-none focus:ring-0 dark:bg-opacity-10 dark:text-gray-300 dark:shadow-none*/
+    @apply pl-10 rounded-md  bg-white border-2 dark:border bg-opacity-10 block w-full appearance-none pt-5 pb-2 text-gray-600 focus:border-primary-500 focus:border-2 focus:outline-none focus:ring-0 dark:bg-opacity-10 dark:text-gray-300 dark:shadow-none transition duration-300
+}
+.is-input-ico-label{
+    @apply absolute top-4 -z-10 origin-[0] pl-10 left-1 -translate-y-3 scale-75 transform text-gray-500 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-1  peer-focus:-translate-y-3 peer-focus:scale-75 peer-focus:text-primary-500 dark:text-white
+}
+.is-input.disable{
+    @apply bg-gray-100 text-gray-800 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400
+}
+
+.box-option-select{
+    @apply bg-gray-100 absolute grid z-40 shadow-lg top-0 mt-6 rounded-lg border border-gray-200 w-full md:w-72 max-h-[18rem] overflow-auto
+}

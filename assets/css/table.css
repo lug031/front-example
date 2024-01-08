@@ -1,0 +1,33 @@
+.box-table{
+  @apply overflow-hidden   rounded-lg dark:border-gray-600 dark:border-0
+}
+.table-is{
+  @apply min-w-full divide-y divide-gray-100  dark:divide-gray-600 dark:divide-opacity-50 dark:bg-gray-900 dark:bg-opacity-50
+}
+.table-is thead{
+  @apply bg-blue-500 bg-opacity-10 dark:bg-gray-700 dark:text-white dark:bg-opacity-30 border-b dark:border-0
+}
+.table-is thead tr th{
+  @apply px-6 py-4 text-sm font-semibold text-left text-gray-700 uppercase dark:text-white
+}
+.vue3-easy-data-table {
+  @apply w-full overflow-x-auto  rounded-lg shadow bg-white ring-1 ring-slate-200;
+}
+.table-is tbody{
+  @apply divide-y divide-gray-200 dark:divide-gray-700 dark:divide-opacity-30
+}
+.table-is tbody tr td{
+  @apply px-6 py-4 text-sm text-gray-800 whitespace-nowrap dark:text-white
+}
+.td-side{
+  @apply px-6 py-4 w-1/4 border-t border-t-white text-sm bg-gray-50 font-medium text-gray-800 whitespace-nowrap dark:bg-gray-800 dark:bg-opacity-50
+}
+.table-is .blue{
+  @apply border-b-white bg-blue-100 dark:bg-blue-800 dark:bg-opacity-30 dark:border-0 !important
+}
+.table-is .teal{
+  @apply border-b-white bg-teal-100 dark:bg-teal-800 dark:bg-opacity-30 dark:border-0 !important
+}
+.table-is .purple{
+  @apply border-b-white bg-purple-100 dark:bg-purple-800 dark:bg-opacity-30 dark:border-0 !important
+}
